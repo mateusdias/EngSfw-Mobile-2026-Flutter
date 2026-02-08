@@ -1,9 +1,9 @@
 # Aula 01 — Primeiro contato com a disciplina e com Flutter
 
-📘 **Disciplina:** Tecnologia e Programação para Dispositivos Móveis (TPDM)
-🎓 **Curso:** Engenharia de Software — PUC-Campinas
-👨‍🏫 **Professor:** Prof. Me. Mateus Dias
-⏱️ **Duração:** 2h/a 
+📘 **Disciplina:** Tecnologia e Programação para Dispositivos Móveis (TPDM) \
+🎓 **Curso:** Engenharia de Software — PUC-Campinas \
+👨‍🏫 **Professor:** Prof. Me. Mateus Dias \
+⏱️ **Duração:** 2h/a \
 
 ## 1. Objetivos da aula
 
