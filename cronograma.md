@@ -180,6 +180,21 @@ Durante este período, espera-se que os estudantes:
 - Realizem ajustes e refinamentos em seus projetos, inclusive após a entrega formal, quando necessário, demonstrando comprometimento com a qualidade do trabalho desenvolvido;
 - Conduzam apresentações e defesas técnicas de forma estruturada, clara e profissional.
 
+## 📝 Datas previstas das avaliações
+
+Observe com atenção as datas de cada prova, valor de pontuação e conteúdo: 
+As avaliações acontecerão na aula teórica. Portanto, saiba qual turma teórica você frequenta!
+
+| Avaliação | Data prevista                                               | Pontos |
+|-----------|-------------------------------------------------------------|--------|
+| P1        | 02/03 (Turmas 1 e 2) · 03/03 (Turma 3)                       | 3 pts  |
+| P2        | 30/03 (Turmas 1 e 2) · 31/03 (Turma 3)                       | 4 pts  |
+| P3        | 27/04 (Turmas 1 e 2) · 28/04 (Turma 3)                       | 4 pts  |
+| P4        | 25/05 (Turmas 1 e 2) · 26/05 (Turma 3)                       | 4 pts  |
+
+> 📌 **Observação:** as datas acima são **previsões** e podem sofrer ajustes conforme o calendário acadêmico e a dinâmica da disciplina.  
+> Os conteúdos avaliados serão divulgados oportunamente.
+
 ## 🎯 Visão final do cronograma
 
 * **Fevereiro, Março e Abril:** foco intenso em base técnica
