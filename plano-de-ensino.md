@@ -1,12 +1,12 @@
 # Plano de Ensino — Desenvolvimento Mobile com Flutter
 
-📍 **Instituição:** Pontifícia Universidade Católica de Campinas (PUC-Campinas)
-🏫 **Centro:** Escola Politécnica
-🎓 **Curso:** Engenharia de Software
-📘 **Disciplina:** Tecnologia e Programação para Dispositivos Móveis (TPDM)
-🆔 **Código da disciplina:** 21813
-👨‍🏫 **Professor:** Prof. Me. Mateus Dias
-📅 **Ano/Semestre:** 2026
+📍 **Instituição:** Pontifícia Universidade Católica de Campinas (PUC-Campinas) \
+🏫 **Centro:** Escola Politécnica \
+🎓 **Curso:** Engenharia de Software \
+📘 **Disciplina:** Tecnologia e Programação para Dispositivos Móveis (TPDM) \
+🆔 **Código da disciplina:** 21813 \
+👨‍🏫 **Professor:** Prof. Me. Mateus Dias \
+📅 **Ano/Semestre:** 2026 
 
 ---
 

@@ -187,9 +187,9 @@ As avaliações acontecerão na aula teórica. Portanto, saiba qual turma teóri
 
 | Avaliação | Data prevista                                               | Pontos |
 |-----------|-------------------------------------------------------------|--------|
-| P1        | 02/03 (Turmas 1 e 2) · 03/03 (Turma 3)                       | 3 pts  |
-| P2        | 30/03 (Turmas 1 e 2) · 31/03 (Turma 3)                       | 4 pts  |
-| P3        | 27/04 (Turmas 1 e 2) · 28/04 (Turma 3)                       | 4 pts  |
+| P1        | 30/03 (Turmas 1 e 2) · 31/03 (Turma 3)                       | 3 pts  |
+| P2        | 27/04 (Turmas 1 e 2) · 28/04 (Turma 3)                       | 4 pts  |
+| P3        | 11/05 (Turmas 1 e 2) · 12/05 (Turma 3)                       | 4 pts  |
 | P4        | 25/05 (Turmas 1 e 2) · 26/05 (Turma 3)                       | 4 pts  |
 
 > 📌 **Observação:** as datas acima são **previsões** e podem sofrer ajustes conforme o calendário acadêmico e a dinâmica da disciplina.  
