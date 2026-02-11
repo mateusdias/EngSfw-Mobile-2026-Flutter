@@ -1,11 +1,9 @@
 # Engenharia de Software — Desenvolvimento Mobile com Flutter (2026)
 
-📍 **Instituição:** PUC-Campinas  
-📘 **Disciplina:** Tecnologia e Programação para Dispositivos Móveis (TPDM)  
-👨‍🏫 **Professor:** Me. Mateus Dias  
-📅 **Ano/Semestre:** 2026  
-
----
+📍 **Instituição:** PUC-Campinas \
+📘 **Disciplina:** Tecnologia e Programação para Dispositivos Móveis (TPDM) \
+👨‍🏫 **Professor:** Prof. Mateus Dias \
+📅 **Ano:** 2026 
 
 ## 🎯 Sobre este repositório
 
@@ -20,15 +18,11 @@ Aqui você encontrará:
 
 > ⚠️ **Atenção:**  
 > Este repositório é **somente para consulta**.  
-> As atividades práticas, exercícios e entregas **não devem ser realizadas aqui**.  
-> Cada estudante possui um **repositório individual**, criado automaticamente por meio do **GitHub Classroom**.
-
----
+> Este repositório é destinado exclusivamente aos meus alunos da disciplina. Não são aceitas contribuições externas.
 
 ## 🧭 Organização do repositório
 
 ```text
-
 engsfw-mobile-2026-flutter/
 ├── README.md
 ├── plano-de-ensino.md
@@ -60,3 +54,4 @@ engsfw-mobile-2026-flutter/
     └── ...
 
 ```
+
