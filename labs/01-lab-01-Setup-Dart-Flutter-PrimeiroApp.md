@@ -244,12 +244,11 @@ flutter doctor --android-licenses
 
 ### Emulador não aparece / não inicia
 
-* Verificar se existe o Android Emulator no computador.
+* Verificar se existe o Android Emulator no computador (Android SDK).
 
 ## 🔜 Próximo aula
 
 * **Aula/Lab 02:** Widgets, layout e navegação — início do App A
-
 ---
 
 **Lab 01 — TPDM / Mobile 2026**
