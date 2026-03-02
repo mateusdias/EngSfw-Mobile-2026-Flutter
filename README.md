@@ -55,3 +55,12 @@ engsfw-mobile-2026-flutter/
 
 ```
 
+## Um pouco da minha história
+
+Pude fazer o Android falar. 
+
+No passado trabalhei num projeto do CPqD aqui de Campinas/SP como pesquisador. Adaptei um produto do próprio CPqD (um TTS chamado Texto fala) para funcionar em smartphones Android. O texto fala foi um dos melhores Text-to-Speech já criados. Incrivelmente muito antes de IAs como existem hoje. O desafio era fazer tudo funcionar principalmente em telefones com pouca memória e baratos, para que qualquer deficiente visual pudesse comprar e ter acesso. 
+
+Minha participação na entrevista com meu coordenador nessa época: Claudinei Martins e todos os usuários do Centro de Prevenção a Cegueira de Americana/SP.
+
+[![Assistir no YouTube](https://img.youtube.com/vi/R81TLNt01Cs/hqdefault.jpg)](https://www.youtube.com/watch?v=R81TLNt01Cs)
