@@ -15,25 +15,14 @@
 // - Operadores: +, -, *, /, x
 // - Ações: C (clear), ⌫ (backspace), Enter (calcular)
 
-/// Enum = tipagem literal: conjunto fechado de valores para representar tipos de teclas
-/// Tipo de Tecla: Uma tecla nesta versão da calculadora, só pode ser digito, operador ou ação.
 enum KeyType { digit, operator, action }
 
-/// Enum para ações da calculadora (melhor que comparar strings como "Enter").
-/// Ações especiais da calculadora o que ela deve fazer em determinadas ações especiais. 
 enum CalcAction { clear, backspace, enter }
 
-/// Classe que representa uma tecla.
-/// Criaremos com `const Key(...)` diretamente.
 class Key {
-  /// `final` -> depois que o objeto nasce, esses valores não mudam.
   final String label;
   final KeyType type;
-
-  /// value pode ser diferente do label (ex.: label "×" mas value "x")
   final String? value;
-
-  /// action só é usado quando type == KeyType.action
   final CalcAction? action;
 
   /// Construtor const:
@@ -47,8 +36,6 @@ class Key {
   });
 }
 
-/// Display: cuida apenas do texto exibido.
-/// Separação de responsabilidade: display NÃO calcula.
 class Display {
 
   // "ATRIBUTO PRIVADO" (tem efeito real mas, não como o private do Java). 
@@ -58,7 +45,6 @@ class Display {
   Display({String initialText = ""}) : _text = initialText;
 
   String get text => _text;
-
   void setText(String value) => _text = value;
 
   void clear() => _text = "";
@@ -71,10 +57,6 @@ class Display {
   }
 }
 
-/// Motor de cálculo: recebe a expressão como String e devolve o resultado.
-///
-/// Nesta versão: apenas "a op b" (uma expressão por vez)
-/// Ex.: "10/5", "3.5*2", "-2+7"
 class CalculatorEngine {
   double evaluate(String expression) {
     final exp = _normalize(expression);
@@ -121,7 +103,6 @@ class CalculatorEngine {
   }
 }
 
-/// Controller: recebe teclas e orquestra display + engine.
 class CalculatorController {
   /// `final` é perfeito aqui:
   /// - display e engine são dependências fixas do controller
@@ -184,11 +165,10 @@ class CalculatorController {
   }
 }
 
-/// Demonstração no console:
-/// simula apertar teclas como numa calculadora.
 void main() {
-  final calc = CalculatorController();
 
+  final calc = CalculatorController();
+  
   // Simulação: 2 x 2 Enter
   final keys1 = <Key>[
     const Key(label: "2", type: KeyType.digit),
@@ -201,16 +181,17 @@ void main() {
     calc.press(k);
     print("Apertou '${k.label}' -> display: ${calc.display.text}");
   }
-
+  
   print("\n--- Outro exemplo: 10/5 ---");
-  calc.press(const Key(label: "C", type: KeyType.action, action: CalcAction.clear));
+  const cKey = Key(label: "C", type: KeyType.action, action: CalcAction.clear);
+  calc.press(cKey);
   calc.press(const Key(label: "1", type: KeyType.digit));
   calc.press(const Key(label: "0", type: KeyType.digit));
   calc.press(const Key(label: "/", type: KeyType.operator, value: "/"));
   calc.press(const Key(label: "5", type: KeyType.digit));
   calc.press(const Key(label: "Enter", type: KeyType.action, action: CalcAction.enter));
   print("Resultado: ${calc.display.text}");
-
+  
   print("\n--- Erro: 2/0 ---");
   calc.press(const Key(label: "C", type: KeyType.action, action: CalcAction.clear));
   calc.press(const Key(label: "2", type: KeyType.digit));
@@ -218,4 +199,28 @@ void main() {
   calc.press(const Key(label: "0", type: KeyType.digit));
   calc.press(const Key(label: "Enter", type: KeyType.action, action: CalcAction.enter));
   print("Resultado: ${calc.display.text}");
+
+  print("\n--- Erro: 2/Enter ---");
+  calc.press(const Key(label: "2", type: KeyType.digit));
+  calc.press(const Key(label: "/", type: KeyType.operator, value: "/"));
+  calc.press(const Key(label: "Enter", type: KeyType.action, action: CalcAction.enter));
+  print("Resultado Erro faltando partes: ${calc.display.text}");
+  
+
 }
+
+
+/*
+  1 - Baixar a calculadora e 
+  ler e analisar o código completo. 
+  (com apoio da IA)
+  2 - Tentar entender a expressão
+  regular que está lá. 
+  3 - Usando o prompt vc vai enviar o código
+  da calculadora em Dart e pedir
+  que a IA gere um app em flutter 
+  a partir dele. 
+  (sair um projeto... )
+  Me explique passo a passo o que foi feito
+
+*/
